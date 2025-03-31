@@ -1,0 +1,10 @@
+CREATE TABLE friends (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user1_id VARCHAR(36) NOT NULL,
+    user2_id VARCHAR(36) NOT NULL,
+    user1_email VARCHAR(100) NOT NULL,
+    user2_email VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_friends_user1 FOREIGN KEY (user1_id) REFERENCES users(_id) ON DELETE CASCADE,
+    CONSTRAINT fk_friends_user2 FOREIGN KEY (user2_id) REFERENCES users(_id) ON DELETE CASCADE
+) ENGINE=InnoDB;

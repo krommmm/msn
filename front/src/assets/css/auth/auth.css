@@ -1,0 +1,109 @@
+/* header */
+.auth {
+    width: 100%;
+    height: 100%;
+}
+
+.auth__content {
+    background-image: url("../../pictures/bg/msn_bg.png");
+    background-size: cover;
+    width: 493px;
+    height: 664px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px double rgb(157, 167, 197);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.auth__content__header {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.auth__content__header img {
+    width: 55px;
+}
+
+.auth__content__header p {
+    font-size: 16px;
+    margin-left: 7px;
+    font-weight: 600;
+    color: rgb(20, 51, 146);
+}
+
+.auth__content__body {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth__content__body img {
+    width: 132px;
+    height: 141px;
+    border: 2px solid rgba(77, 106, 162, .6);
+    border-radius: 10px;
+    color: rgb(77, 106, 162);
+}
+
+/* form */
+.auth__content__body form {
+    margin: 15px 0px;
+    color: rgb(20, 51, 146);
+}
+
+.auth__content__body form>.inputs>div {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.auth__content__body form>.inputs>div>label {
+    margin: 3px 0px;
+}
+
+.auth__content__body form>.checkbox>div>input {
+    margin: 3px 5px 0px 0px;
+}
+
+.auth__content__body form>.inputs>div>input {
+    padding: 4px 5px;
+
+}
+
+.auth__content__body .button-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.auth__content__body>form div:last-child>button {
+    padding: 5px 20px;
+    background-color: white;
+    color: rgb(20, 51, 146);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.auth__content__body>form div:last-child>button:hover {
+    border-bottom: 3px solid rgb(211, 211, 24);
+    border-top: 1px solid rgb(211, 211, 24);
+    box-shadow: rgb(173, 216, 230) 3px 3px 6px 0px inset, rgba(173, 216, 230, 0.5) -3px -3px 6px 1px inset;
+
+}
+
+/* footer */
+.auth__content__footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: auto;
+}
+.auth__content__footer p{
+    color: rgb(2,2,254);
+    text-decoration: underline;
+    cursor:pointer;
+}

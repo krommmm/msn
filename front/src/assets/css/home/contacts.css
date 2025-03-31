@@ -1,0 +1,95 @@
+.homeContact__content {
+    border: 1px solid rgb(171, 171, 230);
+    margin-top: 5px;
+}
+
+.homeContact__content__header {
+    display: flex;
+}
+
+.homeContact__content__header__left img {
+    width: 76px;
+    padding: 5px;
+}
+
+.homeContact__content__header__right__warning {
+    display: flex;
+    background-color: rgb(254, 255, 224);
+    padding: 15px;
+    color: blue;
+    border: 1px solid blue;
+    margin-top: 2px;
+}
+
+.homeContact__content__body__online__title p,
+.homeContact__content__body__offline__title p{
+    color: rgb(14, 10, 107);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.homeContact__content__header__right {
+    background: rgb(240, 248, 255);
+    background: linear-gradient(342deg, rgba(240, 248, 255, 1) 35%, rgba(255, 255, 255, 1) 100%);
+}
+
+.homeContact__content__header__right__warning p:last-child {
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.homeContact__content__header__right__warning p:last-child:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+.homeContact__content__header__right__warning p:first-child {
+    background-color: blue;
+    border-radius: 50%;
+    padding: 12px;
+    color: rgb(254, 255, 224);
+    font-size: 15px;
+    font-weight: 600;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 5px 0px 0px;
+}
+
+.homeContact__content__header__right__addContact img {
+    width: 52px;
+}
+
+.homeContact__content__header__right__addContact {
+    border-bottom: 1px solid rgb(171, 171, 230);
+    display: flex;
+    align-items: center;
+}
+
+.homeContact__content__header__right__addContact p {
+    margin-left: 5px;
+    color: rgb(30, 34, 97);
+    font-size: 21px;
+}
+
+.homeContact__content__body__online__title,
+.homeContact__content__body__offline__title {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.homeContact__content__body__online__title p:first-child,
+.homeContact__content__body__offline__title p:first-child {
+    margin-right: 10px;
+    background-color: aliceblue;
+    padding: 4px 5px;
+    border-bottom: 1px solid rgb(30, 34, 97);
+    border-right: 1px solid rgb(30, 34, 97);
+    border-left: 1px solid rgb(187, 188, 200);
+    border-top: 1px solid rgb(187, 188, 200);
+    cursor: pointer;
+}

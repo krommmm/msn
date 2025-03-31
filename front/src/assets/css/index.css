@@ -1,0 +1,20 @@
+@import "./miseEnPage.css";
+@import "./utils.css";
+@import "./animation.css";
+@import "./mediaQueries.css";
+@import "./auth/auth.css";
+@import "./navigation.css";
+
+
+/* home */
+@import "./home/home.css";
+@import './home/contacts.css';
+
+/* add */
+@import "./add/add.css";
+
+/* update */
+@import "./update/update.css";
+
+/* chat */
+@import "./chat/chat.css";

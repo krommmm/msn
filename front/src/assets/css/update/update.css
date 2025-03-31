@@ -1,0 +1,107 @@
+.updateImg {
+    width: 500px;
+    margin: auto;
+    background-color: rgb(235, 233, 216);
+}
+
+.updateImg__header {
+    padding: 15px;
+}
+
+.updateImg__header p {
+    max-width: 80%;
+}
+
+.updateImg__body {
+    padding: 15px;
+    display: flex;
+}
+
+/* left  */
+.updateImg__body__selectionImg {
+    width: 50%;
+    border: 1px solid rgb(150, 152, 151);
+    background-color: white;
+}
+
+.updateImg__body__selectionImg--title {
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 5px 5px 5px 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 4px;
+    border-radius: 3px;
+    margin: 3px;
+    background-color: rgb(235, 233, 216);
+}
+
+.updateImg__body__selectionImg__centent>div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: .3s;
+    margin: 2px 2px 2px 10px;
+}
+
+.updateImg__body__selectionImg__centent>div:hover {
+    filter: brightness(0.8);
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.updateImg__body__selectionImg__centent>div img {
+    width: 60px;
+    height: 60px;
+}
+
+.updateImg__body__selectionImg__centent>div p {
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.updateImg__body__selectionImg__centent {
+    background-color: white;
+    height: 300px;
+    overflow: auto;
+}
+
+/* right  */
+.updateImg__body__manageImg {
+    width: 50%;
+}
+
+.updateImg__body__manageImg__buttons {
+    display: flex;
+    margin-left: 25px;
+    flex-direction: column;
+}
+
+.updateImg__body__manageImg__buttons button {
+    width: 108px;
+}
+
+.updateImg__body__manageImg__preview {
+    margin: 30px 0px 0px 35px;
+}
+
+.updateImg__body__manageImg__preview p {
+    font-size: 15px;
+}
+
+.updateImg__body__manageImg__preview img {
+    width: 160px;
+    height: 160px;
+    margin-top: 15px;
+    border-top: 3px solid rgba(0,0,0,.4);
+    border-left: 3px solid rgba(0,0,0,.4);
+    border-radius: 3px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.updateImg__footer{
+    display:flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding: 25px 0px;
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../pictures/bg/windows-xp-bliss-revisite.webp");
+    background-size:cover;
+}
+main{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}

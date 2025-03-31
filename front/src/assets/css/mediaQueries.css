@@ -1,0 +1,42 @@
+@media screen and (max-width: 750px) {
+    html .chatContent__body__right {
+        display: none;
+    }
+
+    html .chatContent__body {
+        flex-direction: column;
+    }
+
+    html .chatContent__body__left {
+        width: 100%;
+    }
+
+    html .chatContent {
+        width: 320px;
+    }
+
+    html .home {
+        width: 320px;
+    }
+
+    html .auth__content {
+        width: 320px;
+    }
+
+    html .addFriendOnglet {
+        width: 320px;
+    }
+
+    html .updateImg {
+        width: 320px;
+    }
+
+    html .updateImg__body__selectionImg__centent>div p {
+        font-size: 12px;
+    }
+
+    html .updateImg__body__manageImg__preview img {
+        width: 109px;
+        height: 109px;
+    }
+}

@@ -1,0 +1,87 @@
+.addFriendOnglet {
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    margin: auto;
+}
+
+.addFriendOnglet__header {
+    background-image: url("../../pictures/bg/bg_header_console.PNG");
+    background-repeat: repeat-x;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+.addFriendOnglet__header p {
+    color: white;
+    font-size: 17px;
+}
+
+.addFriendOnglet__header i {
+    background-color: rgb(230, 130, 114);
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 5px 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.addFriendOnglet__body__exemples {
+    display: flex;
+    align-items: center;
+}
+
+.addFriendOnglet__body__exemples p:first-child {
+    margin-right: 15px;
+}
+
+.addFriendOnglet__body {
+    background-color: rgb(236, 233, 216);
+    height: 200px;
+    padding: 15px;
+}
+
+.addFriendOnglet__body--title {
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.addFriendOnglet__body input {
+    margin: 15px 0px;
+    width: 300px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.answerMsgAdd {
+    margin: 15px 0px;
+    width: fit-content;
+}
+
+.answerContainer {
+    display: flex;
+    align-items: center;
+}
+
+.answerContainer img {
+    width: 40px;
+}
+
+.addFriendOnglet__body__demandeAmi>div {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.addFriendOnglet__body__demandeAmi__answerButtons {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.addFriendOnglet__body__demandeAmi__answerButtons button {
+    margin: 0px 5px;
+}

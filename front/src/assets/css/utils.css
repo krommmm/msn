@@ -1,0 +1,60 @@
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.fa-xmark:hover {
+    background-color: rgb(233, 96, 75);
+}
+
+.btn {
+    padding: 5px 20px;
+    background-color: white;
+    color: rgb(20, 51, 146);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-bottom: 3px solid rgb(211, 211, 24);
+    border-top: 1px solid rgb(211, 211, 24);
+    box-shadow: rgb(173, 216, 230) 3px 3px 6px 0px inset, rgba(173, 216, 230, 0.5) -3px -3px 6px 1px inset;
+}
+
+.btn-xp {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 6px 5px;
+    background-color: rgb(246, 244, 240);
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    width: 108px;
+}
+
+.btn-xp:hover {
+    filter: brightness(0.9);
+}
+
+/* SPAN */
+.triangle {
+    transform: rotate(180deg);
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.grey {
+    color: grey;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.title{
+    text-transform:capitalize;
+}

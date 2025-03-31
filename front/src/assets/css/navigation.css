@@ -1,0 +1,83 @@
+.home__content__header__nav {
+    display: flex;
+    position: relative;
+    font-size:14px;
+}
+
+/* Style uniquement pour les premiers li */
+.home__content__header__nav>ul>li>i {
+    display: none;
+}
+
+.home__content__header__nav>ul>li {
+
+}
+
+/* Style général du menu */
+.nav-menu {
+    background-color: white;
+    list-style-type: none;
+    position: relative;
+    display: flex;
+}
+
+.nav-menu i {
+    margin-left: 10px;
+}
+
+.nav-menu li {
+    padding: 8px;
+    width: auto;
+    cursor: pointer;
+    position: relative;
+    /* transition: 0.3s ease-in-out; */
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color:black;
+}
+
+/* Changement de couleur au survol */
+.nav-menu li:hover {
+    background-color:rgb(47,106,198);
+    color:white;
+}
+
+/* Sous-menus */
+.nav-menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    list-style-type: none;
+    border: 1px solid black;
+    width: 200px;
+}
+
+/* Affichage des sous-menus au hover */
+.nav-menu li:hover>ul {
+    display: block;
+}
+
+/* Gérer les sous-niveaux */
+.nav-menu li ul li {
+    padding-left: 15px;
+
+}
+
+.nav-menu li ul li:last-child {
+    border-bottom: none;
+}
+
+/* Sous-menu de sous-menu */
+.nav-menu li ul li ul {
+    left: 100%;
+    top: 0;
+    display: none;
+}
+
+/* Afficher les sous-niveaux */
+.nav-menu li ul li:hover>ul {
+    display: block;
+}
